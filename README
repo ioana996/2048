@@ -1,0 +1,19 @@
+Tema 2 - Programarea Calculatoarelor-Seria CC
+----------------------------------------------
+
+
+Implementarea jocului:  Cerintele rezolvate sunt:1,2,3,4.Pentru cerinta 1 am adaugat si 
+			optiunile Fast Quit(iesire si din terminal) si Help(afiseaza 
+			informatii despre joc).Meniul a fost creat utilizand functii din 
+			biblioteca ncurses.Pentru fiecare optiune exista o variabila i 
+			corespunzatoare.Pentru accesarea optiunii Resume am folosit o 
+			matrice alocata dinamic pentru a retine datele de pe tabla de joc.
+			Functia drawBoard afiseaza tabla de joc.Tabla este creata folosind 
+			functii din bibioteca cu rolul de a printa caractere la anumite coordonate
+			date.Functia printTime afiseaza ora si timpul petrecut in joc, fiind 
+			creata cu ajutorul pointeri-lor.Functia playGame contine algoritmul 
+			propriu-zis al jocului.Cu ajutorul ei se realizeaza miscarea pe tabla 
+			de joc si actualizarea scorului.Tot in functia playGame se verifica daca 
+			exista miscari valide pentru a genera 2 sau 4.In aceasta functie este 
+			scris algoritmul de verificare a valorilor matricei, iar pentru a printa 
+			matricea dupa fiecare miscare sunt folosite functii din biblioteca data.
